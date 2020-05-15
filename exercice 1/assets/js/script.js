@@ -20,7 +20,7 @@ context.fillStyle = 'peru';
 context.fill();
 // Porte
 context.beginPath();
-context.lineTo(85,250);
+context.moveTo(85,250);
 context.lineTo(115,250);
 context.lineTo(115,210);
 context.lineTo(85,210);
@@ -29,7 +29,7 @@ context.fillStyle = '#CACACA';
 context.fill();
 // fenetre gauche
 context.beginPath();
-context.lineTo(60,160);
+context.moveTo(60,160);
 context.lineTo(80,160);
 context.lineTo(80,180);
 context.lineTo(60,180);
@@ -38,7 +38,7 @@ context.fillStyle = '#CACACA';
 context.fill();
 // fenetre droite
 context.beginPath();
-context.lineTo(140,160);
+context.moveTo(140,160);
 context.lineTo(140,180);
 context.lineTo(120,180);
 context.lineTo(120,160);
