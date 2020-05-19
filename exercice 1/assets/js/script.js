@@ -1,2 +1,20 @@
 var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
+
+context.beginPath();
+context.moveTo(90, 100);
+context.lineTo(200, 100);
+context.quadraticCurveTo(210,110,200,120);
+context.lineTo(170,120);
+context.lineTo(170,200);
+context.quadraticCurveTo(160,210,150,200);
+context.lineTo(150,180);
+context.quadraticCurveTo(145,170,140,180);
+context.lineTo(140,200);
+context.quadraticCurveTo(130,210,120,200);
+context.lineTo(120,120);
+context.lineTo(90,120);
+context.quadraticCurveTo(80,110,90,100);
+context.closePath();
+context.fillStyle = '#976F0F';
+context.fill();
