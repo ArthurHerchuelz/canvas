@@ -26,12 +26,12 @@ context.fillStyle = '#976F0F';
 context.fill();
 // yeux
 context.beginPath();
-context.arc(135, 75, 5, 0, 2 * Math.PI); // formule pour créer un cercle
+context.arc(135, 75, 5, 0, 2 * Math.PI); 
 context.closePath();
 context.fillStyle = '#FFFFFF';
 context.fill();
 context.beginPath();
-context.arc(155, 75, 5, 0, 2 * Math.PI); // formule pour créer un cercle
+context.arc(155, 75, 5, 0, 2 * Math.PI);
 context.closePath();
 context.fillStyle = '#FFFFFF';
 context.fill();
@@ -55,12 +55,12 @@ context.strokeStyle = '#E02004';
 context.stroke();
 // boule de gomme
 context.beginPath();
-context.arc(145, 130, 5, 0, 2 * Math.PI); // formule pour créer un cercle
+context.arc(145, 130, 5, 0, 2 * Math.PI);
 context.closePath();
 context.fillStyle = '#7A2976';
 context.fill();
 context.beginPath();
-context.arc(145, 150, 5, 0, 2 * Math.PI); // formule pour créer un cercle
+context.arc(145, 150, 5, 0, 2 * Math.PI);
 context.closePath();
 context.fillStyle = '#7A2976';
 context.fill();
